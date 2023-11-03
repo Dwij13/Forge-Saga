@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFC42B;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    
+}
+#back{
+    width: 93%;
+    height: 93%;
+    background-color: #272726;
+    position: absolute;
+    /* z-index: 1; */
+    margin: 35px 55px ;
+    border-radius: 20px;
+}
+#parent{
+    position: absolute;
+    display: flex;
+    width: 75%;
+    left: 11%;
+    top: 15%;
+    justify-content: space-around;
+}
+#next{
+    position: absolute;
+    display: flex;
+    top: 70%;
+    left: 21%;
+    width: 55%;
+    justify-content: space-between;
+}
+#wizardltQuest{ 
+    background-color: #FFC42B;
+    border:2px white solid;
+    border-radius: 20px;
+    color: white;
+    /* width: 50%; */
+    font-size: 40px;
+    padding: 15px 30px 15px 30px;
+    cursor: pointer;
+    
+}
+#moleDestroyer{
+    background-color: #FFC42B;
+    border:2px white solid;
+    border-radius: 20px;
+    color: white;
+    /* width: 350%;
+    height: 300%; */
+    font-size: 40px;
+    padding: 15px 30px 15px 30px;
+    cursor: pointer;
+}
