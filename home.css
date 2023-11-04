@@ -11,7 +11,7 @@
 body{
     background-color: #FFC42B;
     font-family: 'Orbitron', sans-serif;
-    color: white;
+    color: #FFC32B;
     
 }
 #back{
@@ -46,10 +46,10 @@ p{
 button{
     height: 64px;
     width: 280px;
-    background-color: #FFC42B;
-    border: 5px white solid;
+    background-color: #272726;
+    border: 5px #FFC32B solid;
     border-radius: 25px;
-    color: white;
+    color: #FFC32B;
     font-size: 28px;
     font-family: 'Orbitron', sans-serif;
     cursor: pointer;

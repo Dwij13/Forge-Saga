@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFC42B;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    
+}
+#back{
+    width: 93%;
+    height: 93%;
+    background-color: #272726;
+    position: absolute;
+    /* z-index: 1; */
+    margin: 35px 55px ;
+    border-radius: 20px;
+    cursor: url(./assets/Group\ 1.png) 50 0,auto;
+}
+#background{
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    left: 38px;
+    top: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://th.bing.com/th/id/R.d2dd4bdb545623a6181d783d5b087713?rik=K%2bVvqaV%2bZ6hjOA&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fa%2f2%2f2%2f1028441-cool-grassland-background-3840x2160-for-windows-10.jpg&ehk=Sd48WF0B0k6FJupScHk1wxaOlZ81jXTvEcHWCIv3WtA%3d&risl=&pid=ImgRaw&r=0);
+    border-radius: 20px;
+
+}
+#scores div{
+    display: flex;
+    justify-content: center;
+}
+#scores{
+    text-align: center;
+    padding-top: 12px;
+}
+#midBox{
+    height: 205px;
+    width: 422px;
+    background-color: #3D0E0E;
+    margin-left: 35%;
+    padding: 25px;
+    border-radius: 12px;
+    margin-top: 50px;
+}
+#highScore{
+    margin-top: 34px;
+}
+#over img{
+    width: 60%;
+    margin-left: 22%;
+    margin-top: 100px;
+}
+#innerBox{
+    height: 153px;
+    width: 370px;
+    background-color: #612A2A;
+    border-radius: 12px;
+}
+#buttons{
+    margin-left: 31;
+}
+#score,#high{
+    margin-left: 10px;
+}
+.buttons{
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 9px;
+    background: #3D0E0E;
+    border: none;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    margin-left: 40%;
+    cursor: url(./assets/Group\ 1.png) 50 0,auto;
+    margin-top: 50px;
+}
+
+

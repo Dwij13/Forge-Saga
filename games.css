@@ -40,10 +40,10 @@ body{
     justify-content: space-between;
 }
 #wizardltQuest{ 
-    background-color: #FFC42B;
-    border:2px white solid;
+    background-color: #272726;
+    border:6px #FFC32B solid;
     border-radius: 20px;
-    color: white;
+    color: #FFC32B;
     /* width: 50%; */
     font-size: 40px;
     padding: 15px 30px 15px 30px;
@@ -51,10 +51,10 @@ body{
     
 }
 #moleDestroyer{
-    background-color: #FFC42B;
-    border:2px white solid;
+    background-color: #272726;
+    border:6px #FFC32B solid;
     border-radius: 20px;
-    color: white;
+    color: #FFC32B;
     /* width: 350%;
     height: 300%; */
     font-size: 40px;
