@@ -92,4 +92,13 @@ body{
 #game div img{
 width: 75px;
 }
+#username{
+    position: absolute;
+    left: 88px;
+    top: 2px;
+}
+svg{
+    position: absolute;
+    top: 10px;
+}
 

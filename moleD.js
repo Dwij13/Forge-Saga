@@ -1,16 +1,31 @@
 window.onload=function(){
     start();
 }
+
 let game = document.getElementById("game")
 let scoreboard = document.getElementById("score")
 let highscore = document.getElementById("high")
 let timer = document.getElementById("time")
 let currentTile;
 let score = 0;
+let username = document.getElementById("username")
+let name1 = JSON.parse(localStorage.getItem("name"))
+username.innerHTML=name1
+let value=localStorage.getItem("score")
+let high = 0;
 let level = localStorage.getItem("level")
 let moleTime=1000;
 let levelTime=20;
 let time;
+if(value>high){
+    high=value
+}
+highscore.innerHTML=high
+function playMusic(){
+    let audio = new Audio("./assets/mole.mp3");
+    audio.play();
+}
+playMusic();
 
 switch (level) {
     case "easy": moleTime=1000;levelTime=20
@@ -88,7 +103,6 @@ localStorage.setItem("score",score);
 function cursorChange(){
    let hammer = document.getElementsByTagName("body")[0];
    hammer.style.cursor='url("./assets/Group 3.png") 50 0,auto'
-    // console.log("wdfvcwdf");
     setTimeout(() => {
         hammer.style.cursor='url("./assets/Group 1.png")  50 0,auto'
     }, 100);

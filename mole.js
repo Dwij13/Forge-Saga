@@ -3,6 +3,9 @@ let medium = document.getElementById("medium")
 let hard = document.getElementById("hard")
 let music = document.getElementById("music")
 let mute = document.getElementById("mute")
+let username= document.getElementById("username")
+let name1 = JSON.parse(localStorage.getItem("name"))
+username.innerHTML=name1
 music.addEventListener("click",audio)
 easy.addEventListener("click",play1)
 medium.addEventListener("click",play2)
@@ -21,4 +24,8 @@ function play3(){
 }
 function audio(){
     mute.setAttribute("src","./assets/mute.png")
+}function playMusic(){
+    let audio = new Audio("./assets/mole.mp3");
+    audio.play();
 }
+playMusic();

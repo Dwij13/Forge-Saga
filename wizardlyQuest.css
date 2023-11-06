@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box ;
+}
+body{
+        background-color: #FFC42B;
+        font-family: 'Orbitron', sans-serif;
+        color: white;
+}
+#back{
+    width: 93%;
+    height: 93%;
+    background-color: #272726;
+    position: absolute;
+    /* z-index: 1; */
+    margin: 35px 55px ;
+    border-radius: 20px;
+} 
+#background{
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    left: 38px;
+    top: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./assets/Rectangle\ 60.png);
+    border-radius: 20px;
+}
+#princess img{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 55%;
+    left: 4%;
+}
+#question{
+    position: absolute;
+    /* background-color: #328CD2; */
+    background-image: url("./assets/Question.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: 14%;
+    top: 16%;
+    width: 73%;
+    height: 50%;
+}
+#options{
+    width: 50%;
+    position: absolute;
+    left: 28%;
+    top: 63%;
+}
+#ques{
+    position: absolute;
+    left: 16%;
+    top: 39%;
+}
+button{
+    background-color: transparent;
+    border: none;
+    width: 240px;
+    height: 60px;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+#options2{
+    position: absolute;
+    left: 56%;
+    top: 63%;
+}
+#op2{
+    margin-top: 10%;
+}
+#op4{
+    margin-top: 27%;
+}
+#timeBox{
+    position: absolute;
+    /* background-color: aquamarine; */
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    left: 88%;
+    top: 78%;
+    padding-top: 3%;
+    padding-left: 2%;
+    font-size: 40px;
+}
+#progressBar{
+    position: absolute;
+    height: 55%;
+    width: 4%;
+    /* background-color: antiquewhite; */
+    border-radius: 15px;
+    border: #FFC42B 4px solid;
+    left: 94%;
+    top: 12%;
+    overflow: hidden;
+}
+#progress{
+    background-color: #328CD2;
+    position: relative;
+    top: 100%;
+    width: 100%;
+    height: 0%;
+    transform: rotatex(180deg);
+    transform-origin: top;
+}
+#live1 img{
+    height: 100px;
+    width: 120px;
+}
+#live2 img{
+    height: 100px;
+    width: 120px;
+}
+#live1,#live2{
+    width: 50px;
+}
+
+#heart{
+    display: flex;
+    position: absolute;
+    top: 89%;
+    left: 9%;
+}
+#top{
+    display: flex;
+    position: absolute;
+    left: 4%;
+    top: 4%;
+}
+#username{
+    margin-left: 25px;
+}
