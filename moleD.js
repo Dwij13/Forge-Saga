@@ -78,6 +78,8 @@ function kill(){
         localStorage.setItem("score",score);
         scoreboard.innerHTML=score.toString();
         currentTile.innerHTML="";
+        audio2 = new Audio("./assets/whack2.mp3");
+        audio2.play();
         
     }
 }

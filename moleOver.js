@@ -7,7 +7,7 @@ again.addEventListener("click",()=>{
     window.open("./mole.html","_self")
 })
 home.addEventListener("click",()=>{
-    window.open("./home.html","_self")
+    window.open("./index.html","_self")
 })
 
 

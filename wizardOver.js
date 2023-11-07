@@ -6,7 +6,7 @@ again.addEventListener("click",()=>{
 })
 
 home.addEventListener("click",()=>{
-    window.open("./home.html","_self")
+    window.open("./index.html","_self")
 })
 function playMusic(){
     let audio = new Audio("./assets/princess.mp3");
