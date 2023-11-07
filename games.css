@@ -26,6 +26,7 @@ body{
 #parent{
     position: absolute;
     display: flex;
+    flex-wrap: wrap;
     width: 75%;
     left: 11%;
     top: 15%;
@@ -60,4 +61,35 @@ body{
     font-size: 40px;
     padding: 15px 30px 15px 30px;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 432px) {
+    #back{
+        width: 92%;
+        height: 94%;
+        margin: 25px 18px;
+    }
+    #parent{
+        top: 6%;
+        left: 23%;
+        line-height: 75px;
+    }
+    #parent img{
+        width: 70%;
+    }
+    #next{
+        /* top: 0;
+        left: 0; */
+        flex-direction: column;
+        top: 32%;
+        left: 30%;
+        height: 49%;
+    }
+    #wizardltQuest{
+        font-size: 20px;
+    }
+    #moleDestroyer{
+        font-size: 20px;
+
+    }
 }

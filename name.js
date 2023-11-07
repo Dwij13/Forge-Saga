@@ -1,6 +1,11 @@
 let enter = document.getElementById("click")
 enter.addEventListener("click", games)
 let name1 = document.getElementById("inputName")
+name1.addEventListener("keypress",()=>{
+    if(event.key=="Enter"|| event.KeyCode ==13){
+        games()
+    }
+})
 
 
 function playMusic(){

@@ -12,13 +12,14 @@ let username = document.getElementById("username")
 let name1 = JSON.parse(localStorage.getItem("name"))
 username.innerHTML=name1
 let value=localStorage.getItem("score")
-let high = 0;
+let high = localStorage.getItem("highScore") || 0;
 let level = localStorage.getItem("level")
 let moleTime=1000;
 let levelTime=20;
 let time;
 if(value>high){
     high=value
+    localStorage.setItem("highScore", high); 
 }
 highscore.innerHTML=high
 function playMusic(){
@@ -77,10 +78,16 @@ function kill(){
         score+=2;
         localStorage.setItem("score",score);
         scoreboard.innerHTML=score.toString();
+        if (score > high) { 
+            high = score;
+            localStorage.setItem("highScore", high);
+            highscoreDisplay.innerHTML = high;
+
+        }
+
         currentTile.innerHTML="";
-        audio2 = new Audio("./assets/whack2.mp3");
-        audio2.play();
-        
+        playAudio("./assets/whack2.mp3")
+
     }
 }
 function gameTime(){
@@ -108,4 +115,9 @@ function cursorChange(){
     setTimeout(() => {
         hammer.style.cursor='url("./assets/Group 1.png")  50 0,auto'
     }, 100);
+}
+function playAudio(src){
+    let audio2 = new Audio(src);
+    audio2.play();
+
 }

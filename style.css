@@ -59,3 +59,27 @@ button{
 #invisible{
     visibility: hidden;
 }
+
+@media only screen and (max-width: 432px) {
+    #back{
+        width: 92%;
+        height: 94%;
+        margin: 25px 18px;
+    }
+    #console{
+        visibility: hidden;
+    }
+    #menu{
+      left: 70px;
+    }
+    button{
+        margin-left: 1px;
+    }
+    h1{
+        font-size: 37px;
+        line-height: 0px;
+    }
+    p{
+        font-size: 17px;
+    }
+}

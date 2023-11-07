@@ -86,6 +86,21 @@ button{
     color: #FFC32B;
     font-size: 48px;
     font-family: 'Orbitron', sans-serif;
+}
 
+
+
+@media only screen and (max-width: 432px) {
+    #back{
+        width: 92%;
+        height: 94%;
+        margin: 25px 18px;
+    }
+    #name{
+        width: 70%;
+        left: 60px;
+        height: 70%;
+    }
 
 }
+

@@ -182,7 +182,7 @@ function clock() {
             gameOver()
         }
 
-    }, 1000)
+    }, 100000000)
 }
 clock()
 

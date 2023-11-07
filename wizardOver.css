@@ -53,3 +53,25 @@ h1{
     background-image: url(./assets/Rectangle\ 60.png);
     border-radius: 20px;
 }
+
+@media only screen and (max-width: 795px) {
+    #back{
+        width: 95%;
+        height: 89%;
+        margin: 25px 18px;
+    }
+    #background{
+        top: 10px;
+        left: 10px;
+        width: 97%;
+    }
+    h1{
+        font-size: 382%;
+    }
+    .btn{
+        width: 200px;
+        height: 35px;
+        font-size: 23px;
+        margin-left: 38%;
+    }
+}
