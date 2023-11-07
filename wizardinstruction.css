@@ -70,47 +70,47 @@ h1{
     left: 42%;
     top: 518px;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 480px) {
     #back{
         width: 95%;
         height: 89%;
-        margin: 25px 18px;
+        margin: 25px 9px;
     }
     #background{
         top: 10px;
         left: 10px;
-        width: 97%;
+        width: 95%;
     }
     #instruction{
         width: 103%;
         margin-top: 2%;
-        margin-left: 194px;
+        margin-left: 39px;
         padding: 0;
         background-size: contain;
     }
     h1{
         font-size: 18px;
         top: 13%;
-        left: 12%;
+        left: 22%;
     }
     #instruction div{
         top: 15%;
-        width: 23%;
-        left: 11%;
+        width: 41%;
+        left: 22%;
         font-size: 15px;
     }
     #close{
         top: 13%;
-        left: 32%;
+        left: 58%;
     }
     .live{
         width: 60px;
-        left: 8%;
+        left: 17%;
         top: 11%;
     }
     .live2{
-        left: 40%;
-        top: 250px;
+        left: 34%;
+        top: 263px;
     }
 
 }

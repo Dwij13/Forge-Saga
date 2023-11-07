@@ -100,5 +100,41 @@ body{
     margin-left: 10px;
 }
 
+@media only screen and (max-width: 480px) {
+    #back{
+        width: 95%;
+        height: 89%;
+        margin: 25px 9px;
+    }
+    #background{
+        top: 10px;
+        left: 10px;
+        width: 95%;
+    }
+    #over img{
+        margin-top: 12%;
+    }
+    #midBox{
+        height: 19%;
+        width: 36%;
+        padding: 2% 0 0 2% ;
+    }
+    #innerBox{
+    height: 92%;
+    width: 94%;
+    font-size: 7px;
+    line-height: 0px;
+    }
+    #again,#home{
+        width: 125px;
+        height: 40px;
+        font-size: 14px;
+        margin-top: 25px;
+        margin-left: 37%;
+    }
+
+    
+}
+
 
 

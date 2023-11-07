@@ -102,3 +102,50 @@ svg{
     top: 10px;
 }
 
+@media only screen and (max-width: 480px) {
+    #back{
+        width: 95%;
+        height: 89%;
+        margin: 25px 9px;
+    }
+    #background{
+        top: 10px;
+        left: 10px;
+        width: 95%;
+    }
+    #logo img{
+        width: 125px;
+        height: 125px;
+    }
+    body{
+        font-size: 5px;
+    }
+    #game div{
+        width: 58px;
+        height: 53px;
+        padding-left: 15px;
+    }
+    #game div img{
+        width: 30px;
+    }
+    #scores{
+        line-height: 20px;
+        padding-left: 25px;
+        margin-right: 30px;
+    }
+    #game{
+        margin-top: 18%;
+    }
+    #time,#score,#high{
+        margin-left: 5px;
+    }
+    #user{
+        left: 25%;
+    }
+    svg{
+        top: 11%;
+    }
+    #timer{
+        padding-right: 15%;
+    }
+}

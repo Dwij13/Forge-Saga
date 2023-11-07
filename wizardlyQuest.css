@@ -56,7 +56,7 @@ body{
 }
 #ques{
     position: absolute;
-    width: 433px;
+    width: 766px;
     left: 16%;
     top: 39%;
 }
@@ -139,31 +139,38 @@ button{
     margin-left: 25px;
 }
 
-@media only screen and (max-width: 795px) {
+@media only screen and (max-width: 480px) {
     #back{
         width: 95%;
         height: 89%;
-        margin: 25px 18px;
+        margin: 25px 9px;
     }
     #background{
         top: 10px;
         left: 10px;
-        width: 97%;
+        width: 95%;
     }
     #princess img{
-        width: 150px;
-        height: 150px;
+        width: 100px;
+        height: 100px;
+        left: 0%;
+    }
+    #question{
+        width: 83%;
+        background-size: contain;
+        top: 33%;
     }
     #ques{
-        font-size: 19px;
-        width: 400px;
+        font-size: 10px;
+        width: 218px;
+        top: 23% ;
     }
     button{
-        font-size: 8px;
-        width: 125px;
+        font-size: 5px;
+        width: 90px;
     }
     #opt4{
-        margin-top: -38%;
+        margin-top: -48%;
     }
     #opt2{
         margin-top: -40%;
@@ -177,10 +184,11 @@ button{
         height: 65px;
     }
     #heart{
-        left: 7%;
+        left: 0%;
+        top: 78%;
     }
     #timeBox{
-        font-size: 20px;
-        left: 83%;
+        font-size: 17px;
+        left: 71%;
     }
 }

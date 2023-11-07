@@ -94,3 +94,41 @@ body{
 #username{
     margin-left: 15px;
 }
+
+
+@media only screen and (max-width: 480px) {
+    #back{
+        width: 95%;
+        height: 89%;
+        margin: 25px 9px;
+    }
+    #background{
+        top: 10px;
+        left: 10px;
+        width: 95%;
+    }
+    #logo img{
+        width: 125px;
+        height: 125px;
+    }
+    .button{
+        width: 150px;
+        font-size: 21px;
+
+    }
+    #hard{
+        width: 150px;
+        font-size: 21px;
+    }
+    #button{
+        line-height: 71px;
+        margin-left: 31%;
+    }
+    #music svg{
+        width: 20px;
+    }
+    #audio{
+        margin-left: 20px;
+    }
+    
+}
