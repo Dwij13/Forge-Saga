@@ -62,13 +62,13 @@ h1{
 .live{
     width: 100px;
     position: relative;
-    left: 157px;
+    left: 25%;
     top: 22%;
 }
 .live2{
     position: absolute;
     left: 42%;
-    top: 518px;
+    top: 67%;
 }
 @media only screen and (max-width: 480px) {
     #back{

@@ -82,8 +82,8 @@ body{
 }
 
 #game div{
-    height: 143.6px;
-    width: 226px;
+    height: 41%;
+    width: 33%;
     background-image: url(./assets/Rectangle\ 32.png);
     background-size: contain;
     background-repeat: no-repeat;
