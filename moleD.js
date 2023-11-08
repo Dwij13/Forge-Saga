@@ -42,7 +42,6 @@ switch (level) { //switch condition for different difficulty levels
 function start(){
     for(let i=0;i<9;i++){ //loop runing from 0-9
         let block = document.createElement("div") //creating div's for the game
-        
         block.id=i.toString();// div id from 0-8
         block.addEventListener("click",kill) //onclick event on the divs
         game.appendChild(block) //adding the created div's in the gamebox

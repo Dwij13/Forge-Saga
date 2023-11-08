@@ -102,7 +102,7 @@ svg{
     top: 10px;
 }
 
-@media only screen and (max-width: 480px) {
+/* @media only screen and (max-width: 480px) {
     #back{
         width: 95%;
         height: 89%;
@@ -148,4 +148,59 @@ svg{
     #timer{
         padding-right: 15%;
     }
+} */
+
+@media only screen and (max-width: 950px) {
+    #back{
+        width: 98%;
+        height: 94%;
+        margin: 14px 10px;
+    }
+    #background{
+        top: 10px;
+        left: 10px;
+        width: 98%;
+    }
+    #logo img{
+        width: 150px;
+        height: 150px;
+    }
+    body{
+        font-size: 5px;
+    }
+    #game div{
+        width: 131px;
+        height: 55px;
+        padding-left: 15px;
+    }
+    #game div img{
+        width: 30px;
+    }
+    #scores{
+        line-height: 20px;
+        padding-left: 25px;
+        margin-right: 30px;
+        font-size: 9px;
+    }
+    #game{
+        margin-top: 8%;
+    }
+    #time,#score,#high{
+        margin-left: 5px;
+    }
+    #user{
+        left: 25%;
+    }
+    #username{
+        left: 46px;
+        top: 25px;
+    }
+    svg{
+        top: 8%;
+    }
+    #timer{
+        padding-right: 15%;
+        font-size: 9px;
+    }
+    
 }

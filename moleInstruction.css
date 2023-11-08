@@ -69,7 +69,7 @@ body{
     top: 2%;
 }
 
-@media only screen and (max-width: 480px) {
+/* @media only screen and (max-width: 480px) {
     #back{
         width: 95%;
         height: 89%;
@@ -94,4 +94,31 @@ body{
         margin-top: 25px;
     }
     
+} */
+
+@media only screen and (max-width: 950px) {
+    #back{
+        width: 98%;
+        height: 94%;
+        margin: 14px 10px;
+    }
+    #background{
+        top: 10px;
+        left: 10px;
+        width: 98%;
+    }
+    #outbox{
+        width: 73%;
+        margin-left: 15%;
+        margin-top: 4px;
+    }
+    #inbox h1{
+        font-size: 41px;
+        padding-top: 0px;
+    }
+    #inbox p{
+        font-size: 30px;
+        line-height: 40px;
+        margin-top: 25px;
+    }
 }

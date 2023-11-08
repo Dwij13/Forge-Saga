@@ -100,7 +100,7 @@ body{
     margin-left: 10px;
 }
 
-@media only screen and (max-width: 480px) {
+/* @media only screen and (max-width: 480px) {
     #back{
         width: 95%;
         height: 89%;
@@ -134,6 +134,40 @@ body{
     }
 
     
+} */
+
+@media only screen and (max-width: 950px) {
+    #back{
+        width: 98%;
+        height: 94%;
+        margin: 14px 10px;
+    }
+    #background{
+        top: 10px;
+        left: 10px;
+        width: 98%;
+    }
+    #over img{
+        margin-top: 3%;
+    }
+    #midBox{
+        height: 19%;
+        width: 36%;
+        padding: 1% 0 0 2% ;
+    }
+    #innerBox{
+    height: 92%;
+    width: 94%;
+    font-size: 7px;
+    line-height: 0px;
+    }
+    #again,#home{
+        width: 125px;
+        height: 40px;
+        font-size: 14px;
+        margin-top: 25px;
+        margin-left: 45%;
+    }
 }
 
 

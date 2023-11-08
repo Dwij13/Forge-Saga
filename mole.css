@@ -96,7 +96,7 @@ body{
 }
 
 
-@media only screen and (max-width: 480px) {
+/* @media only screen and (max-width: 480px) {
     #back{
         width: 95%;
         height: 89%;
@@ -131,4 +131,41 @@ body{
         margin-left: 20px;
     }
     
+} */
+
+@media only screen and (max-width: 950px) {
+    #back{
+        width: 98%;
+        height: 94%;
+        margin: 14px 10px;
+    }
+    #background{
+        top: 10px;
+        left: 10px;
+        width: 98%;
+    }
+    #logo img{
+        width: 150px;
+        height: 150px;
+        margin-left: 42%;
+    }
+    .button{
+        width: 200px;
+        font-size: 21px;
+
+    }
+    #hard{
+        width: 200px;
+        font-size: 21px;
+    }
+    #button{
+        line-height: 71px;
+        margin-left: 39%;
+    }
+    #music svg{
+        width: 20px;
+    }
+    #audio{
+        margin-left: 20px;
+    }
 }
