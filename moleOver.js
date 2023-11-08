@@ -1,9 +1,8 @@
-let again = document.getElementById("again")
-let home = document.getElementById("home")
-let scoreboard = document.getElementById("score")
-let high = document.getElementById("high")
-let highscore=0;
-again.addEventListener("click",()=>{
+let again = document.getElementById("again") //playagain button 
+let home = document.getElementById("home") //home page button 
+let scoreboard = document.getElementById("score") //scorebox
+
+again.addEventListener("click",()=>{ //click event for the buttons
     window.open("./mole.html","_self")
 })
 home.addEventListener("click",()=>{
@@ -11,15 +10,10 @@ home.addEventListener("click",()=>{
 })
 
 
-let value = localStorage.getItem("score")
-scoreboard.innerHTML=value;
-function playMusic(){
+let value = localStorage.getItem("score") //getting the value of score from the local storage
+scoreboard.innerHTML=value; //adding the score value inside the scorebox
+function playMusic(){ //bg music
     let audio = new Audio("./assets/mole.mp3");
     audio.play();
 }
 playMusic();
-
-if(value>highscore){
-    highscore=value;
-}
-high.innerHTML=highscore;

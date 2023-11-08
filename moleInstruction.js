@@ -1,9 +1,9 @@
-let next = document.getElementById("close")
+let next = document.getElementById("close") //cross button 
 
-next.addEventListener("click",()=>{
+next.addEventListener("click",()=>{ //click event on the cross button 
     window.open("./mole.html","_self")
 })
-function playMusic(){
+function playMusic(){ //bg music 
     let audio = new Audio("./assets/mole.mp3");
     audio.play();
 }

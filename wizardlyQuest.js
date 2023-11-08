@@ -1,3 +1,5 @@
+
+// array of different questions for the game 
 let questions = [
     {
         ques: "In 'The Lord of the Rings,' what is the name of the magical ring?",
@@ -106,21 +108,21 @@ let questions = [
 
 let questionNumber = 0;
 
-let username = document.getElementById("username")
+let username = document.getElementById("username") //username
 let riddle = document.getElementById("ques")
-let name1 =JSON.parse (localStorage.getItem("name"))
+let name1 =JSON.parse (localStorage.getItem("name")) //taking username from the local storage 
 username.innerHTML=name1
 let opt1 = document.getElementById("opt1")
 let opt2 = document.getElementById("opt2")
-let opt3 = document.getElementById("opt3")
+let opt3 = document.getElementById("opt3")  //options
 let opt4 = document.getElementById("opt4")
-let timer = document.getElementById("time")
+let timer = document.getElementById("time") //time
 let progress = document.getElementById("progress")
 let live1 = document.getElementById("live1")
-let live2 = document.getElementById("live2")
-let height = 0;
-let life = 0; 
-function playMusic(){
+let live2 = document.getElementById("live2") //lives
+let height = 0; //variable for progress bar
+let life = 0; //variable for lives
+function playMusic(){ //bg music 
     let audio = new Audio("./assets/princess.mp3");
     audio.play();
 }
@@ -138,19 +140,19 @@ opt4.addEventListener("click", function () {
     optionClick(3)
 })
 function optionClick(selectedOptions) {
-    if (questionNumber < questions.length) {
+    if (questionNumber < questions.length) { //using questionnumber variable for indexing of the question 
         if (questions[questionNumber].correct == selectedOptions) {
             questionNumber++;
             height += 10;
-            progress.style.height = height + "%";
+            progress.style.height = height + "%"; //incrementation in the height of the div inside the progress bar 
             if (questionNumber < questions.length) {
                 start();
             } else {
-                window.open("wizardOver.html", "_self");
+                window.open("wizardOver.html", "_self"); //gameover page
             }
         } else {
             life++;
-            if (life == 1) {
+            if (life == 1) {  //condition for the removal of lives after every missclick 
                 live2.style.visibility = "hidden";
             } else if (life == 2) {
                 live1.style.visibility = "hidden";
@@ -166,13 +168,13 @@ function optionClick(selectedOptions) {
 function start() {
     riddle.textContent = questions[questionNumber].ques;
     opt1.textContent = questions[questionNumber].options[0];
-    opt2.textContent = questions[questionNumber].options[1];
+    opt2.textContent = questions[questionNumber].options[1]; //inserting the question box with the questions given in the array 
     opt3.textContent = questions[questionNumber].options[2];
     opt4.textContent = questions[questionNumber].options[3];
 }
 start()
 
-function clock() {
+function clock() { //timer function that ends at 60sec
     let time = 60;
     timer.textContent = time;
     setInterval(() => {
@@ -187,6 +189,6 @@ function clock() {
 clock()
 
 function gameOver() {
-        window.open("./wizardOver.html","_self")
+        window.open("./wizardOver.html","_self") //gameover page
 
 }

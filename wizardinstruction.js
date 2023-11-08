@@ -1,8 +1,8 @@
-let next = document.getElementById("close")
-next.addEventListener("click",()=>{
+let next = document.getElementById("close") //cross icon 
+next.addEventListener("click",()=>{ //click event 
     window.open("./wizardlyQuest.html","_self")
 })
-function playMusic(){
+function playMusic(){//bg music 
     let audio = new Audio("./assets/princess.mp3");
     audio.play();
 }
