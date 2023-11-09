@@ -23,7 +23,7 @@ if(value>high){
 }
 highscore.innerHTML=high
 function playMusic(){ //bg music 
-    let audio = new Audio("./assets/mole.mp3");
+    let audio = new Audio("./../../assets/mole.mp3");
     audio.play();
 }
 playMusic();
@@ -62,7 +62,7 @@ function setMole(){
     }
 
     let mole = document.createElement("img"); //creating the img tag inside the div
-    mole.src = "./assets/Group 24.png"; //src for the created img 
+    mole.src = "./../../assets/Group 24.png"; //src for the created img 
     
     let number = random();
     currentTile = document.getElementById(number) //getting the div's with random index value
@@ -84,7 +84,7 @@ function kill(){ //killing and scoring function
         }
 
         currentTile.innerHTML=""; //empting the div
-        playAudio("./assets/whack2.mp3") //soundeffect on click 
+        playAudio("./../../assets/whack2.mp3") //soundeffect on click 
 
     }
 }
@@ -103,15 +103,15 @@ function gameTime(){ //gametime having variable time
 gameTime()
 
 function gameOver(){
-    window.open("./moleOver.html","_self") //refering to the gameover page
+    window.open("./../../game1/gameover/moleOver.html","_self") //refering to the gameover page
 }
 localStorage.setItem("score",score); //storing the score in the local storage
 
 function cursorChange(){ //changing the custom cursor as hammer for game by changing the src for the cursor url img and using settimeout to change to default
    let hammer = document.getElementsByTagName("body")[0];
-   hammer.style.cursor='url("./assets/Group 3.png") 50 0,auto'
+   hammer.style.cursor='url("./../../assets/Group 3.png") 50 0,auto'
     setTimeout(() => {
-        hammer.style.cursor='url("./assets/Group 1.png")  50 0,auto'
+        hammer.style.cursor='url("./../../assets/Group 1.png")  50 0,auto'
     }, 100);
 }
 function playAudio(src){ //audio src

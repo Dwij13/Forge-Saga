@@ -123,7 +123,7 @@ let live2 = document.getElementById("live2") //lives
 let height = 0; //variable for progress bar
 let life = 0; //variable for lives
 function playMusic(){ //bg music 
-    let audio = new Audio("./assets/princess.mp3");
+    let audio = new Audio("./../../assets/princess.mp3");
     audio.play();
 }
 playMusic();
@@ -148,7 +148,7 @@ function optionClick(selectedOptions) {
             if (questionNumber < questions.length) {
                 start();
             } else {
-                window.open("wizardOver.html", "_self"); //gameover page
+                window.open("./../../game2/game over/wizardOver.html", "_self"); //gameover page
             }
         } else {
             life++;
@@ -157,7 +157,7 @@ function optionClick(selectedOptions) {
             } else if (life == 2) {
                 live1.style.visibility = "hidden";
             } else if (life == 3) {
-                window.open("wizardOver.html", "_self");
+                window.open("./../../game2/game over/wizardOver.html", "_self");
             }
         }
     }
@@ -189,6 +189,6 @@ function clock() { //timer function that ends at 60sec
 clock()
 
 function gameOver() {
-        window.open("./wizardOver.html","_self") //gameover page
+        window.open("./../../game2/game over/wizardOver.html","_self") //gameover page
 
 }

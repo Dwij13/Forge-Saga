@@ -9,12 +9,12 @@ name1.addEventListener("keypress",()=>{ // enter button event
 
 
 function playMusic(){ //background music 
-    let audio = new Audio("./assets/home.mp3");
+    let audio = new Audio("./../assets/home.mp3");
     audio.play();
 }
 playMusic();
 
 function games() {
     localStorage.setItem("name", JSON.stringify(name1.value)) //storing the input name in the local storage 
-    window.open("./games.html", "_self") //refering to the game page 
+    window.open("./../game page/games.html", "_self") //refering to the game page 
 }

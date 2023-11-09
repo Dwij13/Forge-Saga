@@ -27,7 +27,7 @@ body{
     top: 20px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(./assets/Rectangle\ 60.png);
+    background-image: url(./../../../assets/Rectangle\ 60.png);
     border-radius: 20px;
 }
 #instruction{
@@ -36,7 +36,7 @@ height: 96%;
 
 margin-left: 25%;
 margin-top: 1%;
-    background-image: url(./assets/instruction.png);
+    background-image: url(./../../../assets/instruction.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 25px;

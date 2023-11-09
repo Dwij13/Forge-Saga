@@ -13,9 +13,9 @@ body{
     background-color: #FFC42B;
     font-family: 'Orbitron', sans-serif;
     color: white;
-    cursor: url(./assets/Group\ 1.png) 50 0,auto;
+    cursor: url(./../../assets/Group\ 1.png) 50 0,auto;
     user-select: none;
-    
+    transition: all 2s;
 }
 #back{
     width: 93%;
@@ -84,7 +84,7 @@ body{
 #game div{
     height: 41%;
     width: 33%;
-    background-image: url(./assets/Rectangle\ 32.png);
+    background-image: url(./../../assets/Rectangle\ 32.png);
     background-size: contain;
     background-repeat: no-repeat;
     padding-left:43px;

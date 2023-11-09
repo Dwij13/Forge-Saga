@@ -9,18 +9,18 @@ medium.addEventListener("click",play2) //clcik event for the buttons
 hard.addEventListener("click",play3)
 function play1(){
     localStorage.setItem("level","easy") //seting the element fot the key level as easy
-    window.open("./moleD.html","_self")
+    window.open("./../../game1/game page/moleD.html","_self")
 }
 function play2(){
     localStorage.setItem("level","medium")//seting the element fot the key level as medium
-    window.open("./moleD.html","_self")
+    window.open("./../../game1/game page/moleD.html","_self")
 }
 function play3(){
     localStorage.setItem("level","hard")//seting the element fot the key level as hard
-    window.open("./moleD.html","_self")
+    window.open("./../../game1/game page/moleD.html","_self")
 }
 function playMusic(){ //bg music
-    let audio = new Audio("./assets/mole.mp3");
+    let audio = new Audio("./../../assets/mole.mp3");
     audio.play();
 }
 playMusic();
